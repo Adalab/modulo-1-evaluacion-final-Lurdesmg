@@ -1,0 +1,36 @@
+.footer {
+    background-color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footer__container--button {
+    background-color: #f2f2f2;
+    padding: 0.8rem;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 2rem;
+}
+
+.footer__list--item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__end {
+    margin-bottom: 2rem;
+}
+
+.footer__end--item {
+    color: #fff;
+}
+.heart {
+    color: #f26002;
+}
