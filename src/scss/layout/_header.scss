@@ -1,1 +1,45 @@
+*{
+    max-width: 480px;
+}
+
+.header__burger {
+    position: absolute;
+    z-index: 1;
+    background-color: #f26002;
+    padding: 1rem;
+}
+
+
+.hero-content {
+    background-image: url(../images/cover.jpeg);
+    background-size:100vh;
+    margin: 0;
+    height: 60vh;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    color: rgb(51, 110, 165);
+
+    .header__title {
+        font-size: 5rem;
+        font-weight: 700;
+        line-height: 1.5;
+
+        .header__text {
+            font-size: 3rem;
+            
+            .header__button {
+                margin-top: 3rem;
+                background-color: #fff;
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+
 
