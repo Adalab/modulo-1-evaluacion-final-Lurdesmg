@@ -1,31 +1,32 @@
 .main__sec1 {
     padding: 1rem;
-    margin-top: 3rem;
+
 }
-.main__sec1--feelings {
+.main__sec1-feelings {
     color: #f26002;
     margin: 1rem 0;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
 }
 
-.main__sec1--title {
+.main__sec1-title {
     color: black;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     margin-bottom: 1rem;
 }
 
-.main__sec1--text {
+.main__sec1-text {
     color: #979797;
     line-height: 1.5;
     margin-bottom: 1rem;
+    font-size: 1.8rem;
 }
 
-.main__sec1--button {
+.main__sec1-button {
     border: 0.2rem solid #f26002;
     background-color: #fff;
-    padding: 0.5rem 1rem;
-    width: 40%;
+    padding: 1rem 1rem;
+    width: 20rem;
     border-radius: 2rem;
 }
         
@@ -35,6 +36,6 @@
     width: 100%;
     text-decoration: none;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
     
