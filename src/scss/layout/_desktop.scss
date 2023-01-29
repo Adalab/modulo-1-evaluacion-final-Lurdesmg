@@ -1,0 +1,35 @@
+@media all and (min-width:1024px) {
+    .header__hero {
+        height: 100vh;
+        padding-bottom: 0;
+    }
+    .header__title {
+        font-size: 7.5rem;
+    }
+    .header__text {
+        font-size: 3.5rem;
+    }
+
+    .main__sec1 {
+        padding-left: 20rem;
+        padding-right: 8rem;
+    }
+
+    .main__sec2 {
+        padding: 2rem 4rem;
+    }
+    .main__sec2-article {
+        padding: 1rem;
+    }
+    .main__sec2-title {
+        font-size: 3.2rem;
+    }
+    .main__sec2-subtitle {
+        line-height: 2;
+    }
+
+    .footer__links {
+        gap: 0;
+        margin: 0 18rem;
+    }
+}
