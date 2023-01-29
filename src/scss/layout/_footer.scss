@@ -23,7 +23,12 @@ footer {
     margin-right: auto;
     position: relative;
     bottom: 2rem;
+    transition: all 0.5s linear;
+}
 
+.footer__container-button:hover {
+    padding: 1.5rem;
+    background-color: #333;
 }
 
 .footer__button {

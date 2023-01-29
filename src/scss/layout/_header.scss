@@ -1,14 +1,21 @@
 .header__menu {
     position: fixed;
-    /*z-index: 1;*/
     background-color: #f26002;
     padding: 1rem;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    
+}
+.header__menu:hover{
+    padding: 1.5rem;
+    background-color: #333;
 }
 
 .header__hero {
     height: 100vh;
     background-image: url('../images/cover.jpeg');
     background-size:cover;
+    background-position: 40%;
     margin: 0;
     text-align: center;
     padding: 1.5rem;
@@ -17,22 +24,22 @@
     justify-content: flex-end;
     align-items: center;
     color: #fff;
+    padding-bottom: 15%;
 }
 
 
 .header__title {
-    font-size: 4rem;
+    font-size: 3.2rem;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 2;
     margin-bottom: 2rem;
-    /*height: 25%;*/
+    text-shadow: 2px 2px 2px #979797;
 }
 
 .header__text {
-    font-size: 3rem;
+    font-size: 1.6rem;
     line-height: 1.6;
     margin-bottom: 1rem;
-    /*height:10%;*/
 }
 
 .header__button {
@@ -40,7 +47,15 @@
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 50%;
+    transition: all .5s linear;
 }
+
+.header__button:hover {
+    padding: 1.5rem;
+    background-color: #333;
+    transform: rotate(360deg);
+}
+
 
 
 
