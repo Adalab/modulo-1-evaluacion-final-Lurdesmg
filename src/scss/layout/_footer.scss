@@ -1,5 +1,9 @@
-.footer {
+footer {
     background-color: #4a4a4a;
+    padding-bottom: 2.5rem;
+}
+
+.footer__links{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +13,9 @@
     line-height: 1.5;
 }
 
-.footer__container--button {
+.footer__container-button {
+    width: 4.5rem;
+    height: 4.5rem;
     background-color: #fff;
     padding: 0.8rem;
     border-radius: 50%;
@@ -17,9 +23,18 @@
     margin-right: auto;
     position: relative;
     bottom: 2rem;
+
 }
 
-.footer__list--item {
+.footer__button {
+    width: 100%;
+}
+.footer__button-img {
+    width: 100%;
+}
+
+
+.footer__list-item {
     font-size: 1.6rem;
     text-decoration: none;
     color: #fff;
@@ -29,7 +44,7 @@
     margin-bottom: 3rem;
 }
 
-.footer__end--item {
+.footer__end-item {
     font-size: 1.4rem;
     color: #fff;
 }
