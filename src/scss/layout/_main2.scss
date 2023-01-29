@@ -1,5 +1,5 @@
 .main__sec2 {
-    background-color: #f2f2f2;
+    background-color: c$color-main2;
     padding: 2rem;
 }
 
@@ -28,7 +28,7 @@
 
 .main__sec2-container {
     margin: 2.5rem 0;
-    background-color: #f26002;
+    background-color: $color-buttons;
     padding: 1rem;
     width: 20rem;
     border-radius: 2rem;
@@ -37,7 +37,7 @@
 }
 
 .sec2-button {
-    color: #f2f2f2;
+    color: $color-primario;
     display: inline-block;
     width: 100%;
     text-decoration: none;

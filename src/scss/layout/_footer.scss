@@ -1,5 +1,5 @@
 footer {
-    background-color: #4a4a4a;
+    background-color: $color-footer;
     padding-bottom: 2.5rem;
 }
 
@@ -16,7 +16,7 @@ footer {
 .footer__container-button {
     width: 4.5rem;
     height: 4.5rem;
-    background-color: #fff;
+    background-color: $color-primario;
     padding: 0.8rem;
     border-radius: 50%;
     margin-left: auto;

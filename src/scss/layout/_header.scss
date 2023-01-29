@@ -1,6 +1,6 @@
 .header__menu {
     position: fixed;
-    background-color: #f26002;
+    background-color: $color-buttons;
     padding: 1rem;
     transition-duration: .2s;
     transition-timing-function: ease-in;
@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    color: #fff;
+    color: $color-primario;
     padding-bottom: 15%;
 }
 
@@ -33,7 +33,7 @@
     font-weight: 700;
     line-height: 2;
     margin-bottom: 2rem;
-    text-shadow: 2px 2px 2px #979797;
+    text-shadow: 2px 2px 2px $color-shadow;
 }
 
 .header__text {
@@ -43,7 +43,7 @@
 }
 
 .header__button {
-    background-color: #fff;
+    background-color: $color-primario;
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 50%;

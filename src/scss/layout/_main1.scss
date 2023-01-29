@@ -23,15 +23,15 @@
 }
 
 .main__sec1-button {
-    border: 0.2rem solid #f26002;
-    background-color: #fff;
+    border: 0.2rem solid $color-buttons;
+    background-color: $color-primario;
     padding: 1rem 1rem;
     width: 20rem;
     border-radius: 2rem;
 }
         
 .main__button{
-    color: #f26002;
+    color: $color-buttons;
     display: inline-block;
     width: 100%;
     text-decoration: none;
