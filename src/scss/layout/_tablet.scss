@@ -29,6 +29,7 @@
         height: 100%;
     }
 
+
     .main__sec1 {
         display: flex;
         flex-direction: column;
@@ -51,4 +52,40 @@
         width: 16rem;
     }
     
+
+    .main__sec2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        padding: 3rem 2.5rem;
+    }
+    .main__sec2-title {
+        grid-column: 1/4;
+        font-size: 2.8rem;
+    }
+    .main__sec2-article {
+        padding: 1.5rem;
+    }
+    .main__sec2-subtitle {
+        font-size: 2.4rem;
+    }
+    .main__sec2-text {
+        font-size: 2rem;
+    }
+    .grid__box1 {
+        grid-column: 1/2;
+    }
+    .grid__box2 {
+        grid-column: 2/3;
+    }
+    .grid__box3 {
+        grid-column: 3/4;
+    }
+    .main__sec2-container {
+        grid-column: 2/3;
+    }
+    .main__sec2-container {
+        padding: 1.5rem;
+        border-radius: 3rem;
+    }
 }
